@@ -146,5 +146,5 @@ int main()
 	cin >> y;
 	cout << "Pole wynosi: " << pole(x, y) << endl;
 	system("pause");
-	return 0;
+	return 0;asdasd
 }*/

@@ -148,3 +148,17 @@ int main()
 	system("pause");
 	return 0;asdasd
 }*/
+// WZOR KIEPSKI ALE DZIALA funkcja z liczaca stopnie Farenheita na Celsjusza
+int temp(int c)
+{
+	return 32 + (9 / 5)*c;
+}
+int main()
+{
+	int f;
+	cout << "Podaj temp w stopniach fahrenheita: ";
+	cin >> f;
+	cout << "Temperatura w stopniach Celsjusza wynosi: " << temp(f) << endl;;
+	system("pause");
+	return 0;
+}
